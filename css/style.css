@@ -1,0 +1,177 @@
+﻿/*
+    Portfolio Site
+    Jose Nino N. Garcia
+*/
+
+@font-face
+{
+    font-family:gothic;
+    src:url('../font/GOTHIC.TTF');
+}
+
+body,html 
+{
+    padding:0;
+    margin:0;
+    font-family:gothic !important;
+    font-size:12px;
+}
+
+header
+{
+    background:#008CBA;
+    padding:5px;
+    width:100%;
+    display:block;
+    color:#ffffff;
+}
+
+header label
+{
+    color:#ffffff;
+}
+
+.headcontent label:first-child
+{
+    font-weight:bold;
+    font-size:15px;
+}
+
+profileimage
+{
+    display:block;
+    background:url('../images/profile.JPG') no-repeat;
+    padding:12em 0;
+    background-size:cover;
+    font-family:gothic;
+}
+
+profileimage h4
+{
+    color:#ffffff;
+    font-family:gothic;
+}
+
+profileimage p
+{
+    color:#ffffff;
+    font-family:gothic;
+}
+
+section
+{
+    display:block;
+    padding:5em 0;
+    background:#008CBA;
+}
+
+section h4
+{
+    font-family:gothic;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+section ul
+{
+    list-style-type:square;
+}
+
+section li
+{
+    color:#ffffff;
+    font-size:14px;
+}
+
+section label
+{
+    color:#ffffff;
+}
+
+section img
+{
+    vertical-align:middle;
+}
+
+skills
+{
+    display:block;
+    background:#ffffff;
+    padding:5em 0;
+}
+
+skills h4
+{
+    font-family:gothic;
+}
+
+skills table
+{
+    width:100%;
+}
+
+peopleinvolved
+{
+    display:block;
+    padding:5em 0;
+    background:#008CBA;
+    color:#ffffff;
+}
+
+peopleinvolved h4
+{
+    font-family:gothic;
+    color:#ffffff;
+    text-align:center;
+    font-weight:bold;
+}
+
+peopleinvolved img
+{
+    border-radius:40px;
+    height:50px;
+    width:50px;
+}
+
+peopleinvolved label
+{
+    color:#ffffff;
+}
+
+box
+{
+    display:block;
+    background:#3b5998;
+    height:50px;
+    width:50px;
+    border-radius:50px;
+}
+
+footer
+{
+    display:block;
+    padding:1em 0;
+    
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top left, #3C6678 0%, #0A3954 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top left, #3C6678 0%, #0A3954 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top left, #3C6678 0%, #0A3954 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #3C6678), color-stop(1, #0A3954));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top left, #3C6678 0%, #0A3954 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom right, #3C6678 0%, #0A3954 100%);
+}
+
+footer label
+{
+    color:#ffffff;
+}
